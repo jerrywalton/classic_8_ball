@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magic 8 Ball</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+
+<body>
+  <div id="app">
+    <header>
+      <h1>Magic 8 Ball</h1>
+      <p>Your future in a sphere</p>
+    </header>
+
+    <main>
+      <div class="input-section">
+        <div class="input-wrapper">
+          <input type="text" id="question-input" placeholder="Ask your question here..." />
+          <button id="clear-button" class="clear-button" aria-label="Clear question">&times;</button>
+        </div>
+        <button id="shake-button">Shake the Ball</button>
+      </div>
+
+      <div class="eight-ball" id="eight-ball">
+        <div class="sphere">
+          <div class="eight-circle">8</div>
+          <div class="window">
+            <div class="liquid">
+              <div id="answer-container" class="answer-container hidden">
+                <div class="triangle"></div>
+                <div id="answer-text" class="answer-text"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow"></div>
+      </div>
+    </main>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
