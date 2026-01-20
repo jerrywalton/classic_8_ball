@@ -1,6 +1,6 @@
 # Classic Magic 8-Ball
 
-A stunning, interactive 3D-styled Magic 8-Ball web application. Shake the ball to reveal your destiny with smooth animations and authentic visual effects.
+A stunning, interactive 3D-styled Magic 8-Ball single-page app. Shake the ball to reveal your destiny with smooth animations and authentic visual effects.
 
 ![Magic 8 Ball](./Magic_8_Ball.png)
 
@@ -10,6 +10,10 @@ A stunning, interactive 3D-styled Magic 8-Ball web application. Shake the ball t
 - **Premium Design**: Sleek dark mode aesthetics with glassmorphism and dynamic 3D-like animations.
 - **Authentic Response**: Classic Magic 8-Ball answers displayed in a realistic floating triangle.
 - **Responsive Layout**: Works beautifully on both desktop and mobile devices.
+
+-Single HTML entry
+-Canvas-driven rendering
+-No page reloads
 
 ## Tech Stack
 
