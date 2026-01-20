@@ -11,9 +11,9 @@ A stunning, interactive 3D-styled Magic 8-Ball single-page app. Shake the ball t
 - **Authentic Response**: Classic Magic 8-Ball answers displayed in a realistic floating triangle.
 - **Responsive Layout**: Works beautifully on both desktop and mobile devices.
 
--Single HTML entry
--Canvas-driven rendering
--No page reloads
+- **Single HTML entry
+- **Canvas-driven rendering
+- **No page reloads
 
 ## Tech Stack
 
